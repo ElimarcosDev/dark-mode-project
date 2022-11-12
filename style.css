@@ -1,5 +1,8 @@
 body{
     position: relative;
+    background-color: blueviolet;
+   
+    
 }
 main{
     position: absolute;
@@ -9,11 +12,10 @@ main{
 }
 main > input{
     text-align: center;
-    
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0px;
+    border: none;
+    border-radius: 50px;
 }
-#white{
-    
-}
-#dark{
 
-}
+
