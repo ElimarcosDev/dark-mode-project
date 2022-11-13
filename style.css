@@ -13,7 +13,7 @@ div{
     transform: translate(-200%, 30%);
     padding: 10px;
     display: none;
-    transition: 1.5;
+    margin-left: 0px;
 }
 div > input{
     text-align: center;
