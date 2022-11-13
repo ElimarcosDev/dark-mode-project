@@ -18,11 +18,11 @@ function menu(){
     var menu = document.getElementById('tema')
     
 
-    if ( menu.style.display == 'block'){
+    if ( menu.style.display == 'inline-block'){
         menu.style.display = 'none'
     }
     else{
-        menu.style.display = 'block'
+        menu.style.display = 'inline-block'
     }
     
 }
