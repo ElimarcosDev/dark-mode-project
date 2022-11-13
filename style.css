@@ -13,6 +13,7 @@ div{
     transform: translate(-200%, 30%);
     padding: 10px;
     display: none;
+    transition: 1.5;
 }
 div > input{
     text-align: center;
@@ -21,9 +22,15 @@ div > input{
     border: none;
     border-radius: 50px;
 }
+div > input:hover{
+    cursor: pointer;
+}
 div > h1{
-    color: beige;
+    color: rgb(0, 0, 0);
     font-size: 1em;
+}
+p:hover{
+    cursor: pointer;
 }
 
 

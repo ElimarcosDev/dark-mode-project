@@ -16,13 +16,14 @@ function dark(){
 }
 function menu(){
     var menu = document.getElementById('tema')
-    menu.style.display = 'block'
+    
 
-    if ( menu.style.display = 'block'){
-        menu.style.display = 'block'
-    }
-    else{
+    if ( menu.style.display == 'block'){
         menu.style.display = 'none'
     }
+    else{
+        menu.style.display = 'block'
+    }
+    
 }
 
