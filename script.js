@@ -14,4 +14,15 @@ function dark(){
     document.body.style.backgroundColor = '#363636'
     document.querySelector("title").innerHTML = "Black";
 }
+function menu(){
+    var menu = document.getElementById('tema')
+    menu.style.display = 'block'
+
+    if ( menu.style.display = 'block'){
+        menu.style.display = 'block'
+    }
+    else{
+        menu.style.display = 'none'
+    }
+}
 
